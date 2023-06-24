@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { connect } from "react-redux";
 import { moveClockwise, moveCounterClockwise } from "../state/action-creators";
 
 function Wheel(props) {
-  // const [index, setIndex] = useState(initialWheelState)
-  console.log(props);
+  // console.log(props);
   return (
     <div id="wrapper">
       <div id="wheel">
